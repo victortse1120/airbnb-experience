@@ -48,6 +48,13 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+.gray {
+  color: #918E98;
+}
+
+.bold {
+  font-weight: bold ;
+}
 .nav--logo {
   width: 82.02px;
   height: 25.35px;
@@ -74,4 +81,23 @@ section {
 
 .hero--text {
   margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
 }
