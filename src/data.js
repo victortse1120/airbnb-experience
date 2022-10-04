@@ -13,7 +13,9 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 6, 
-        }
+        },
+        openSpots: 0,
+        location: "Online"
     },
     {
         id: 2,
@@ -24,7 +26,9 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 30, 
-        }
+        },
+        openSpots: 1,
+        location: "Online"
     },
     {
         id: 3,
@@ -35,10 +39,12 @@ let cardData = [
         stats: {
             rating: "4.8",
             reviewCount: 2, 
-        }
+        },
+        openSpots: 1,
+        location: "Norway"
     },
     {
-        id: 1,
+        id: 4,
         img: Katie,
         country: "USA", 
         title: "Life lessons with Katie Zaferes", 
@@ -46,10 +52,12 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 6, 
-        }
+        },
+        openSpots: 0,
+        location: "Online"
     },
     {
-        id: 2,
+        id: 5,
         img: Wedding,
         country: "USA", 
         title: "Learn wedding photography", 
@@ -57,10 +65,12 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 30, 
-        }
+        },
+        openSpots: 1,
+        location: "Online"
     },
     {
-        id: 3,
+        id: 6,
         img: Mountain,
         country: "USA", 
         title: "Group Mountain Biking", 
@@ -68,10 +78,12 @@ let cardData = [
         stats: {
             rating: "4.8",
             reviewCount: 2, 
-        }
+        },
+        openSpots: 1,
+        location: "Norway"
     },
     {
-        id: 1,
+        id: 7,
         img: Katie,
         country: "USA", 
         title: "Life lessons with Katie Zaferes", 
@@ -79,10 +91,12 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 6, 
-        }
+        },
+        openSpots: 0,
+        location: "Online"
     },
     {
-        id: 2,
+        id: 8,
         img: Wedding,
         country: "USA", 
         title: "Learn wedding photography", 
@@ -90,10 +104,12 @@ let cardData = [
         stats: {
             rating: "5.0",
             reviewCount: 30, 
-        }
+        },
+        openSpots: 1,
+        location: "Online"
     },
     {
-        id: 3,
+        id: 9,
         img: Mountain,
         country: "USA", 
         title: "Group Mountain Biking", 
@@ -101,7 +117,9 @@ let cardData = [
         stats: {
             rating: "4.8",
             reviewCount: 2, 
-        }
+        },
+        openSpots: 1,
+        location: "Norway"
     }
 ]
 

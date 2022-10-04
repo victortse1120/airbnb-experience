@@ -71,16 +71,20 @@ section {
 
 .hero--photo-grid {
   align-self: center;
-  width: 800px;
+  max-width: 800px;
   height: 400pxpx;
 }
 
 .hero--header {
   margin-bottom: 16px;
+  font-size: 36px;
+  font-family: 'Poppins';
 }
 
 .hero--text {
   margin-top: 0;
+  font-size: 16px;
+  font-family: 'Poppins';
 }
 
 .card--row {
@@ -92,8 +96,8 @@ section {
 }
 
 .card {
+  position: relative;
   min-width: 176px;
-  
   font-size: 12px;
   margin: 12px;
 }
@@ -116,4 +120,14 @@ section {
 
 .card--star {
   height: 14px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
